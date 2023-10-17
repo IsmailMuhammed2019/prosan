@@ -5,22 +5,18 @@ all:
       ip: 192.168.10.13
       access_ip: 192.168.10.13
     node2:
-      ansible_host: 191.168.10.14
+      ansible_host: 192.168.10.14
       ip: 192.168.10.14
-      access_ip: 191.168.10.14
+      access_ip: 192.168.10.14
     node3:
       ansible_host: 192.168.10.15
       ip: 192.168.10.15
       access_ip: 192.168.10.15
     node4:
-      ansible_host: 192.168.10.16
-      ip: 192.168.10.16
-      access_ip: 192.168.10.16
-    node5:
-      ansible_host: 191.168.10.17
+      ansible_host: 192.168.10.17
       ip: 192.168.10.17
-      access_ip: 191.168.10.17
-    node6:
+      access_ip: 192.168.10.17
+    node5:
       ansible_host: 192.168.10.18
       ip: 192.168.10.18
       access_ip: 192.168.10.18
@@ -36,7 +32,6 @@ all:
         node3:
         node4:
         node5:
-        node6:
     etcd:
       hosts:
         node1:

@@ -1,2 +1,2 @@
 cluster_name: sandsiv+
-kube_version: v1.21
+kube_version: v1.25.1
